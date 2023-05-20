@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btcbip"
+                android:layout_width="match_parent"
+                android:layout_height="272dp"
+                android:layout_margin="8dp"
+                android:onClick="btcb_btn"
+                android:text="Bài toán cơ bản"
+
+                android:textSize="30dp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/dgsip"
+                android:layout_width="match_parent"
+                android:layout_height="272dp"
+                android:text="Đài quan sát"
+                android:textSize="30dp"
+                app:cornerRadius="10dp"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/tftbip"
+                android:layout_width="match_parent"
+                android:layout_height="272dp"
+                android:layout_margin="8dp"
+                android:onClick="tptb_btn"
+                android:text="Tính phần tử bắn"
+                android:textSize="30dp"
+                app:cornerRadius="10dp" />
+            <Button
+                android:id="@+id/kzwip"
+                android:layout_width="match_parent"
+                android:text="Lập lưới tọa độ"
+                android:layout_height="272dp"
+                android:textSize="30dp"
+                app:cornerRadius="10dp"
+                android:layout_margin="8dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

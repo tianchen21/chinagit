@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/zys"
+        android:layout_width="188dp"
+        android:layout_height="207dp"
+        android:layout_margin="8dp"
+        android:text="Tìm tọa độ"
+        android:textSize="30sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/nys"
+
+        android:layout_width="188dp"
+        android:layout_height="207dp"
+        android:layout_margin="8dp"
+
+        android:text="Tìm cự li,phương vị "
+        android:textSize="30sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zys" />
+
+    <Button
+        android:id="@+id/sjx"
+        android:layout_width="188dp"
+        android:layout_height="207dp"
+        android:layout_margin="8dp"
+
+        android:onClick="sjx_btn"
+        android:text="Ba cạnh tam giác"
+
+        android:textSize="30dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/nys"
+        app:layout_constraintTop_toBottomOf="@+id/fw" />
+
+    <Button
+        android:id="@+id/fw"
+        android:layout_width="188dp"
+        android:layout_height="207dp"
+        android:layout_margin="8dp"
+        android:text="Tính góc phương vị "
+        android:textSize="30dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toEndOf="@+id/zys"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/gc"
+        android:layout_width="188dp"
+        android:layout_height="207dp"
+        android:layout_margin="8dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:onClick="gc_btn"
+        android:text="Tính độ cao so với mực nước biển"
+        android:textSize="30dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nys" />
+</androidx.constraintlayout.widget.ConstraintLayout>

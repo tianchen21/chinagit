@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Step3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#86EDE4"
+                android:gravity="center"
+                android:text="thông số cơ bản" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="BCkm="/>
+            <EditText
+                android:layout_width="140dp"
+                android:layout_height="match_parent"/>
+
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Fkm="/>
+            <EditText
+                android:layout_width="140dp"
+                android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Fpm="/>
+            <EditText
+                android:layout_width="50dp"
+                android:hint="0"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Fgm="/>
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="j="/>
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Bd="/>
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="B="/>
+            <EditText
+                android:layout_width="50dp"
+                android:hint="0"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="L="/>
+            <EditText
+                android:layout_width="60dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="ΔXa="/>
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#86EDE4"
+                android:gravity="center"
+                android:text="thông tin điểm nổ" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            >
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="laze"
+                    android:checked="true"
+                    android:layout_marginRight="10dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:text="tọa độ"
+                    android:layout_marginRight="10dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:text="lệch(m)"
+                    android:layout_marginRight="10dp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:text="giao hội"
+                    android:layout_marginRight="10dp"/>
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="A="/>
+            <EditText
+                android:layout_width="70dp"
+                android:hint="0"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="B="/>
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="C="/>
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:text="laze: \n tọa độ:\n lệch: \n giao hội:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:text="A=Dgz         B=Fgz         C=egz\n A=Xz           B=Yz           C=Hz\nA=Flệch     B=D lệch     C=H lệch    \nA=Fchủ       B=Fphụ       C=egz"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/resultsstep2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#684343"
+                android:backgroundTintMode="add"
+                android:onClick="results_x"
+                android:text="Results"
+
+                />
+
+            <Button
+                android:id="@+id/toggleButton"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:backgroundTint="#684343"
+                android:text="real target" />
+
+            <Button
+                android:id="@+id/toggleButton2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+
+                android:layout_marginRight="10dp"
+
+                android:backgroundTint="#684343"
+                android:text="fake target" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="ΔBC="/>
+            <TextView
+                android:layout_width="100dp"
+                android:textSize="20dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="0"/>
+
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="ΔF="/>
+            <TextView
+                android:layout_width="100dp"
+                android:text="0"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
